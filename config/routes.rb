@@ -1,9 +1,11 @@
 Trillium::Application.routes.draw do
-  get "pages/home"
+  
+  
 
-  get "pages/about"
+  get 'about' => 'pages#about'
 
-  get "pages/services"
+  get 'services' => 'pages#services'
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
