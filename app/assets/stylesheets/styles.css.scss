@@ -1,6 +1,8 @@
 $baseFontFamily: Ledger;
 @import url(http://fonts.googleapis.com/css?family=Ledger);
 
+$headingsColor: darkgreen;
+$navbarColor: blue;
 $navbarBackground: white;
 $btnPrimaryBackground: aqua;
 
@@ -13,6 +15,7 @@ body{
 
 .navbar-inner{
   border: 1;
+  color: blue
 }
 
  .footer{
